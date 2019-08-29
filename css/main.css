@@ -1,9 +1,11 @@
-body{
-  background-color: blue;
+body {
+  padding-top: 5rem;
+  background-color: grey;
 }
-h1{
-  color: hotpink;
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
-p{
-  color: pink:
+div.starter-template {
+  color: lightpink;
 }
