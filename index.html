@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <title>ToonArt</title>
 
@@ -15,7 +19,7 @@
   </head>
 
   <body>
-
+<body background="images/background6.gif">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">ToonArt</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,19 +29,18 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="file:///C:/Users/User/Documents/coding_course/group_project/index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about page.html">About</a>
+            <a class="nav-link" href="file:///C:/Users/User/Documents/coding_course/group_project/about%20page.html#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="howpage.html">How-To</a>
+            <a class="nav-link" href="file:///C:/Users/User/Documents/coding_course/group_project/howpage.html">How-To</a>
           </li>
-         <button type="button" class="btn btn-light">Follow us on instagram</button
+          <button type="button" class="btn btn-light">Follow us on instagram</button>
         </ul>
       </div>
     </nav>
-
 
     <main role="main" class="container">
 
@@ -48,16 +51,41 @@
 </main>
 
 <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 400px; height:400px; margin: 0 auto">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-=======
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/dog.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
 
+      <div class="item">
+        <img src="images/pilot.jpg" alt="Chicago" style="width:100%;">
+      </div>
 
+      <div class="item">
+        <img src="images/wattson.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
 
-===
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K2CXPPjoTKo" allowfullscreen>
-<iframe width="853" height="480" controls>
-</iframe>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
