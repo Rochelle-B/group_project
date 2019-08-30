@@ -17,3 +17,7 @@ iframe {
 h5{
   color: darkred;
 }
+
+.carousel-inner > .item {
+   height: 400px;
+}
